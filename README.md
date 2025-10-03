@@ -13,7 +13,7 @@
 - Nhu cầu nhân lực trong mảng mobile app luôn cao → cơ hội nghề nghiệp tốt.
 
 ## Câu 3. Viết một ứng dụng có UI như yêu cầu
-Mô phỏng bằng Python. Code trong thư mục [SourceCode](SourceCode/bai_tap_1.py).
+Mô phỏng bằng Python. Code trong thư mục [SourceCode](SourceCode/baitaptuan1_cau3).
 
-Ảnh output minh hoạ: [TaiLieu/output.png](TaiLieu/output.png)
+Ảnh output minh hoạ: [SourceCode](SourceCode/image.png)
 
