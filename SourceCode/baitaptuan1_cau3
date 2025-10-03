@@ -1,0 +1,26 @@
+import tkinter as tk
+from PIL import Image, ImageTk
+
+# Tạo cửa sổ chính
+root = tk.Tk()
+root.title("Thông tin Sinh viên")
+root.geometry("300x400")
+root.configure(bg="white")
+
+# --- Hiển thị Avatar ---
+try:
+    # Dùng raw string hoặc dấu / để tránh lỗi Unicode
+    img = Image.open(r"c:\Users\Admin\Pictures\tv.jpg")
+    img = img.resize((120, 120))
+    avatar = ImageTk.PhotoImage(img)
+    tk.Label(root, image=avatar, bg="white").pack(pady=20)
+except:
+    tk.Label(root, text="[No Avatar]", font=("Arial", 14), bg="white").pack(pady=40)
+
+# --- Hiển thị Thông tin cá nhân ---
+tk.Label(root, text="Nguyễn Thị Thanh Vân", font=("Arial", 16, "bold"), bg="white").pack(pady=5)
+tk.Label(root, text="Rạch Giá", font=("Arial", 12), bg="white").pack(pady=5)
+tk.Label(root, text="Kiên Giang", font=("Arial", 12), bg="white").pack(pady=5)
+
+# Chạy ứng dụng
+root.mainloop()
