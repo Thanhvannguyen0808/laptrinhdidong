@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">uthsmarttasks</string>
+    <!-- 💬 Tên hiển thị của app -->
+    <string name="app_name">UTH SmartTasks</string>
+
+    <!-- 🌐 Firebase Google Sign-In -->
+    <string name="default_web_client_id">
+        927831706719-63bh4fkvn0q0hb26kreej484qgvdt1jl.apps.googleusercontent.com
+    </string>
 </resources>
