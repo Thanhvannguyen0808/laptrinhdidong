@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="app_title">My First App</string>
+    <string name="greeting_initial">Hello</string>
+    <string name="new_name">I\'m Nguyen Thi Thanh Van</string>
+    <string name="button_text">Say Hi!</string>
+</resources>
