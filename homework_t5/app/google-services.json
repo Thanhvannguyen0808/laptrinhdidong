@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "591000350509",
+    "project_id": "homework-t5",
+    "storage_bucket": "homework-t5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591000350509:android:a84c083da2380001f72da4",
+        "android_client_info": {
+          "package_name": "com.example.homework_t5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591000350509-3a4vh3gd3ahvsohin58v4n52dhae0ess.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homework_t5",
+            "certificate_hash": "9e3803f1041ec7e7f358fb88f5c5c3967b26fe79"
+          }
+        },
+        {
+          "client_id": "591000350509-rni61c27ih2gu7npcms9ferup0si039i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASZb5Qh5_-A1liNAKSepnafxgREcRu6IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591000350509-rni61c27ih2gu7npcms9ferup0si039i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
